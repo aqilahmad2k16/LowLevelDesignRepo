@@ -1,0 +1,13 @@
+1) Adapter :- structural design pattern
+	-intermediary layer which convert from one form to another
+	-take example of third party api
+	-create an interface and think abount how do you want the api to look like
+	-Adapter Design Pattern is a structural pattern that allows the interface of an 
+	existing class to be used as another interface. It acts as a bridge, enabling two incompatible interfaces to work 
+	together without modifying their original code.
+	
+2) Facade :- same
+	- just like boundary/outside of a building that provides cleaner and simplified view of complex environment.
+	-The Facade pattern provides a simplified interface to a complex subsystem, abstracting the 
+	details and providing a more convenient and straightforward way for clients to use the subsystem.
+	

@@ -1,0 +1,26 @@
+## use case of factory design pattern:-
+
+1) Creating Objects with a Common Interface:
+When you want to create objects that share a common interface or base class, 
+and the specific subclass to be instantiated is not known until runtime.
+
+2) Decoupling Object Creation from Client Code:
+When you want to decouple the client code from the details of object creation. 
+The client code only interacts with the factory interface or class, without being aware of the concrete implementation.
+
+3) Encapsulating Object Creation Logic:
+When you need to encapsulate the object creation logic in a separate component (the factory), 
+making it easier to manage and modify without affecting the rest of the codebase.
+
+## meaning of "but allowing subclasses to alter the type of objects that will be created.  what do you  mean by this":-
+Allowing subclasses to alter the type of objects that will be created in the context of the 
+Factory Design Pattern refers to the flexibility provided by the pattern in terms of creating 
+different types of objects without modifying the client code.
+
+Here's a brief recap using the Shape example:
+The Shape interface represents the common interface.
+Circle and Square are concrete classes implementing the Shape interface.
+The ShapeFactory is the factory interface with a method for creating shapes.
+CircleFactory and SquareFactory are subclasses of the factory, each responsible for creating a specific type of shape.
+This way, if you want to introduce a new shape (e.g., Triangle), you can create a Triangle class 
+implementing the Shape interface and a corresponding TriangleFactory to create instances of Triangle.
