@@ -1,0 +1,7 @@
+## Decorator Design Pattern:
+	- The decorator design pattern is a structural pattern that allows behavior to be added to an object.
+	- decorator adds it's own behaviour before or/and after delegating to the object if decorators to to rest of the job.
+	-  It involves creating a set of decorator classes that are used to wrap concrete components, 
+	enhancing their functionalities in a flexible and reusable way.
+	- like here we have example of decorator class Classic, platinum and diamond to add their behaviour annualFee to basicCreaditCard
+	-if we may have an entity to which we may want to add behaviour at runtime, consider using decorator.
