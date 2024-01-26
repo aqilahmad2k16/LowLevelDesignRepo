@@ -1,0 +1,8 @@
+## Flyweight:-
+	- structural pattern, aim to minimize the memory usage  or computational expenses of an application by 
+	sharing as much as possible with related objects. It achieves this by sharing rather than replicating similar objects. 
+	The pattern is particularly useful when a large number of similar objects need to be created.
+	
+	- here we separate properties into intrinsic and extrinsic properties 
+	- intrinsic properties are those which will remain same for all the object 
+	- extrinsic properties are those which might change for all object.

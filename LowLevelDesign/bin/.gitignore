@@ -1,8 +1,11 @@
+/DecoratorDesignPattern/
+/FactoryDesignPattern/
+/.gitignore
 /AdapterAndFacade/
 /Builder/
-/FactoryDesignPattern/
+/FlyweightDP/
 /MultiThreading/
 /Prototype/
 /PrototypeAndRegistery/
 /singleton/
-/DecoratorDesignPattern/
+/module-info.class
