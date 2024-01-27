@@ -1,0 +1,5 @@
+## Strategy Design Pattern:- 
+	- define a family of algorithms, encapsulate each algorithm, and make them interchangeable. 
+	It allows the client to choose the appropriate algorithm at runtime without altering the client code.
+	
+	- It provides a strategy or a set of behaviors that can be selected dynamically.

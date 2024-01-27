@@ -1,11 +1,12 @@
+/Builder/
+/AdapterAndFacade/
 /DecoratorDesignPattern/
 /FactoryDesignPattern/
-/.gitignore
-/AdapterAndFacade/
-/Builder/
 /FlyweightDP/
 /MultiThreading/
 /Prototype/
 /PrototypeAndRegistery/
 /singleton/
-/module-info.class
+/behaviourDesignPatternStrategyDP/
+/BehaviourDesignPattern/
+/BehaviourDesignPattern2/
